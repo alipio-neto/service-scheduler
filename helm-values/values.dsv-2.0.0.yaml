@@ -1,0 +1,11 @@
+environment: "Development"
+logging: INFORMATION
+mongodb:
+  servers:
+  - host: "mongodb.infra"
+    port: "27017"
+  dnsserver: false
+  dbname: atlas-dsv-service-scheduler
+  user: dsv-service-scheduler-user
+  pwd: service-scheduler-pwd
+  replicaset: ""

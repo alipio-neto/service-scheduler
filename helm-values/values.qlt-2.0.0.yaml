@@ -1,0 +1,11 @@
+environment: "Staging"
+logging: INFORMATION
+mongodb:
+  servers:
+  - host: "mongodb.infra"
+    port: "27017"
+  dnsserver: false
+  dbname: atlas-qa-service-scheduler
+  user: qa-service-scheduler-user
+  pwd: service-scheduler-pwd
+  replicaset: ""

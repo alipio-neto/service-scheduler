@@ -1,0 +1,40 @@
+# ASP.NET Core
+# Build and test ASP.NET Core projects targeting .NET Core.
+# Add steps that run tests, create a NuGet package, deploy, and more;
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+name: $(Date:yyyy.MM.dd).$(Rev:r)
+resources:
+  repositories:
+    - repository: AzurePipelineTemplates
+      type: git
+      name: Atlas/AzurePipelineTemplates
+      ref: master
+
+trigger:
+  batch: true
+  branches:
+    include:
+    - feature/*
+    - bugfix/*
+    - develop
+
+# Pull Request Trigger.
+pr:
+  branches:
+    include:
+    - '*'
+
+pool:
+  name: Default
+
+
+stages:
+  - template: stages.yml@AzurePipelineTemplates
+    parameters:
+      sonar_key: 'atlas.api.service-scheduler'
+      docker_repository: 'atlas/atlas.api.service-scheduler'
+      test_project: './atlas.api.service-scheduler.tests/atlas.api.service-scheduler.tests.csproj'
+      main_project: 'atlas.api.service-scheduler.csproj'
+      kube_release: 'service-scheduler-api'
+      helm_chart_version: '2.0.0'
+      codecoverage_exclude: '[atlas.shared.*]*%2c[xunit.*]*'

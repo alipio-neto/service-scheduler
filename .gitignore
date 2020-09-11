@@ -1,0 +1,11 @@
+/.vs
+/bin
+/obj
+/*.user
+/Logs
+/doc.xml
+atlas.api.service-scheduler.tests/coverage*
+/atlas.api.service-scheduler/obj
+/atlas.api.service-scheduler/bin
+/atlas.api.service-scheduler.tests/obj
+/atlas.api.service-scheduler.tests/bin

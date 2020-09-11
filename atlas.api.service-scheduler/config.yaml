@@ -1,0 +1,11 @@
+logging: INFORMATION
+host: http://atlas.devel
+mongodb:
+  servers:
+  - host: atlas.devel
+    port: 30000
+  dnsserver: false
+  dbname: atlas-dsv-service_scheduler
+  user: dsv-service_scheduler-user
+  pwd: service_scheduler-pwd
+  replicaset: 

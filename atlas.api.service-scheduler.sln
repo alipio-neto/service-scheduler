@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atlas.api.service-scheduler", "atlas.api.service-scheduler\atlas.api.service-scheduler.csproj", "{49C75D8A-D026-4A90-8E11-F0305C210BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atlas.api.service-scheduler.tests", "atlas.api.service-scheduler.tests\atlas.api.service-scheduler.tests.csproj", "{CE27D5DC-C9D8-4970-B459-6C499A78008B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Debug|x64.Build.0 = Debug|Any CPU
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Debug|x86.Build.0 = Debug|Any CPU
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Release|x64.ActiveCfg = Release|Any CPU
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Release|x64.Build.0 = Release|Any CPU
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Release|x86.ActiveCfg = Release|Any CPU
+		{49C75D8A-D026-4A90-8E11-F0305C210BFD}.Release|x86.Build.0 = Release|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Debug|x64.Build.0 = Debug|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Debug|x86.Build.0 = Debug|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Release|x64.ActiveCfg = Release|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Release|x64.Build.0 = Release|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Release|x86.ActiveCfg = Release|Any CPU
+		{CE27D5DC-C9D8-4970-B459-6C499A78008B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

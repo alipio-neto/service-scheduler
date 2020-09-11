@@ -1,0 +1,20 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:6574/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "atlas.api.service_scheduler": {
+      "commandName": "Project",
+      "commandLineArgs": "--urls http://+:6574",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:6574/"
+    }
+  }
+}
